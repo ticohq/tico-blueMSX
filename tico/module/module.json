@@ -1,0 +1,137 @@
+{
+  "id": "bluemsx",
+  "name": "blueMSX",
+  "nro": "tico-bluemsx.nro",
+  "launch": "\"{nro}\" \"{slug}\" \"{rom}\" \"{title}\"",
+  "settings": "config/modules/bluemsx/settings.json",
+  "config_file": "bluemsx.jsonc",
+  "system_dir": "bluemsx",
+  "is_libretro": true,
+  "achievements": true,
+  "list_label": "blueMSX (MSX, Coleco, SVI & SC-3000)",
+  "systems": [
+    {
+      "slug": "msx",
+      "title": "MSX",
+      "short_title": "MSX",
+      "extensions": [
+        ".rom",
+        ".ri",
+        ".mx1",
+        ".dsk",
+        ".cas",
+        ".m3u",
+        ".zip",
+        ".7z",
+        ".rar"
+      ],
+      "games_file": "msx.dat",
+      "retroachievements_id": 29,
+      "colors": {
+        "start": "5F8CE6",
+        "end": "5FC8E6",
+        "start_dark": "3F62A8",
+        "end_dark": "3F8CA8"
+      }
+    },
+    {
+      "slug": "msx2",
+      "title": "MSX2",
+      "short_title": "MSX2",
+      "extensions": [
+        ".rom",
+        ".mx2",
+        ".dsk",
+        ".cas",
+        ".m3u",
+        ".zip",
+        ".7z",
+        ".rar"
+      ],
+      "games_file": "msx2.dat",
+      "retroachievements_id": 29,
+      "colors": {
+        "start": "7A5FE6",
+        "end": "5F8CE6",
+        "start_dark": "553FA8",
+        "end_dark": "3F62A8"
+      }
+    },
+    {
+      "slug": "colecovision",
+      "title": "ColecoVision",
+      "short_title": "Coleco",
+      "extensions": [
+        ".col",
+        ".rom",
+        ".zip",
+        ".7z",
+        ".rar"
+      ],
+      "games_file": "colecovision.dat",
+      "bios": [
+        {
+          "any_of": [
+            "Machines/COL - ColecoVision/coleco.rom"
+          ],
+          "size": 8192
+        }
+      ],
+      "retroachievements_id": 44,
+      "colors": {
+        "start": "E6905F",
+        "end": "E65F6E",
+        "start_dark": "A8653F",
+        "end_dark": "A8414D"
+      }
+    },
+    {
+      "slug": "spectravideo",
+      "title": "Spectravideo SVI-318/328",
+      "short_title": "SVI",
+      "extensions": [
+        ".cas",
+        ".rom",
+        ".zip",
+        ".7z",
+        ".rar"
+      ],
+      "games_file": "spectravideo.dat",
+      "bios": [
+        {
+          "any_of": [
+            "Machines/SVI - Spectravideo SVI-328/svi328.rom"
+          ],
+          "size": 32768
+        }
+      ],
+      "colors": {
+        "start": "5FB4E6",
+        "end": "5FE6B4",
+        "start_dark": "3F7EA8",
+        "end_dark": "3FA87E"
+      }
+    },
+    {
+      "slug": "sc-3000",
+      "title": "Sega SC-3000",
+      "short_title": "SC-3000",
+      "extensions": [
+        ".sc",
+        ".sf",
+        ".sg",
+        ".zip",
+        ".7z",
+        ".rar"
+      ],
+      "gamelist_required": false,
+      "retroachievements_id": 33,
+      "colors": {
+        "start": "8C9BB0",
+        "end": "E65F5F",
+        "start_dark": "626D7C",
+        "end_dark": "A83F3F"
+      }
+    }
+  ]
+}

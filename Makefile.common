@@ -312,7 +312,8 @@ SOURCES_CXX  := $(CORE_DIR)/Src/SoundChips/Moonsound.cpp \
 # pulled in when the frontend leaves rxml symbols unresolved.
 SOURCES_C += $(LIBRETRO_COMM_DIR)/formats/xml/rxml.c
 
-ifneq ($(STATIC_LINKING), 1)
+# Upstream leaves these out of static builds because RetroArch exports them;
+# tico is the frontend here and provides none, so they are always in.
 SOURCES_C += $(LIBRETRO_COMM_DIR)/file/retro_dirent.c \
 	     $(LIBRETRO_COMM_DIR)/file/file_path.c \
 	     $(LIBRETRO_COMM_DIR)/file/file_path_io.c \
@@ -327,7 +328,6 @@ SOURCES_C += $(LIBRETRO_COMM_DIR)/file/retro_dirent.c \
 	     $(LIBRETRO_COMM_DIR)/compat/compat_strcasestr.c \
 	     $(LIBRETRO_COMM_DIR)/compat/compat_strl.c \
 	     $(LIBRETRO_COMM_DIR)/compat/fopen_utf8.c
-endif
 #include zlib
 SOURCES_C += $(DEPS_DIR)/zlib/adler32.c \
 	     $(DEPS_DIR)/zlib/compress.c \
