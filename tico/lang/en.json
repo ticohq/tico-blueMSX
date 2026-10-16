@@ -134,5 +134,6 @@
     "settings_bluemsx_tab_system": "System",
     "settings_bluemsx_tab_video": "Video",
     "settings_bluemsx_vdp_synctype": "VDP sync",
-    "settings_bluemsx_ym2413_enable": "MSX-MUSIC (YM2413)"
+    "settings_bluemsx_ym2413_enable": "MSX-MUSIC (YM2413)",
+    "emulator_quick_menu_tip": "Press {plus} and {minus} together to open the quick menu"
 }

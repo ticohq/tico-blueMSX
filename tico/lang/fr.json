@@ -163,5 +163,6 @@
     "settings_bluemsx_value_unlimited": "Illimité",
     "settings_bluemsx_value_up": "Haut",
     "settings_bluemsx_vdp_synctype": "Synchronisation du VDP",
-    "settings_bluemsx_ym2413_enable": "MSX-MUSIC (YM2413)"
+    "settings_bluemsx_ym2413_enable": "MSX-MUSIC (YM2413)",
+    "emulator_quick_menu_tip": "Appuyez sur {plus} et {minus} ensemble pour ouvrir le menu rapide"
 }
