@@ -28,6 +28,16 @@ It adds:
 
 ----------
 
+## Credits
+
+This fork is built on top of the libretro port of blueMSX, by Daniel Vik and the blueMSX team.
+All core emulation work belongs to the blueMSX authors and contributors.
+
+- **blueMSX website** — http://www.bluemsx.com
+- **libretro blueMSX** — https://github.com/libretro/blueMSX-libretro
+
+----------
+
 ## A Note
 
 A lot of work in this scene disappears over time — not because it lacked value, but because it was never shared.
